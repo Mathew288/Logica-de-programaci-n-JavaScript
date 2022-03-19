@@ -18,8 +18,9 @@
 // import {contarConsonantesYVocales, validarTexto, validarCorreo} 
 // from "./Ejercicio6.js";
 
-import {maxMinArray, objetoDeParesEImpares} from "./Ejercicio7.js";
-import {ordenarArray, borrarDuplicados, calcularPromedio} from "./Ejercicio8.js";
+// import {maxMinArray, objetoDeParesEImpares} from "./Ejercicio7.js";
+// import {ordenarArray, borrarDuplicados, calcularPromedio} from "./Ejercicio8.js";
+import {Pelicula} from './Ejercicio9.js';
 
 
 
@@ -74,3 +75,15 @@ import {ordenarArray, borrarDuplicados, calcularPromedio} from "./Ejercicio8.js"
 // ordenarArray([3,4,7,1,3]);
 // borrarDuplicados([1,1,2,2,3,3,"r","r","r","pi"]);
 // calcularPromedio([9,8,7,6,5,4,3,2,1,0]);
+
+Pelicula.mostrarGenerosAceptados();
+const peli = new Pelicula("Ze0123499","50 sombras de grey",
+"ASA",2003,["Ecuador","Perú"],["Guerra"],2.5);
+
+peli.getFichaTecnica();
+
+const scaryMovie = new Pelicula("fo9837640","Scary movie", "Pepe José",
+2003,["Estados Unidos","Venezuela xd"],["Acción"],10);
+scaryMovie.getFichaTecnica();
+
+
